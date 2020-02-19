@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Вакансия: Junior Frontend Developer</title>
+    <style>
+    body{background-color:rgb(173, 170, 184);}
+    </style>
 </head>
 <body>
     <h1>Вакансия: Junior Frontend Developer</h1>
@@ -37,11 +40,30 @@
     <input type="button" value="Добавить в список" placeholder="Добавить в список">
     <br>
     <br>
-    <span>Коммуникабельность:</span>
     <form >
+        <span>Коммуникабельность:</span>
         <select name="Выберите значение" id="Выберите значение">
-                <option value="доступность">доступность</option>
+                <option value="Выберите значение">Выберите значение</option>
+                <option value="Нелюдимый">Нелюдимый</option>
+                <option value="Могу иногда поговорить">Могу иногда поговорить</option>
+                <option value="Пристаю ко всем">Пристаю ко всем</option>
         </select>
     </form>
+    <br>
+    <span>Желаемая з/п:</span>
+    <input type="text" placeholder="введите значение...">
+    <p>Подходит по критериям:</p>
+    <form>
+        <input type="checkbox" id="criteria1" name="criteria1" value="Знание английского">
+        <label for="criteria1">Знание английского</label>
+        <input type="checkbox" id="criteria2" name="criteria2" value="Оклад">
+        <label for="criteria2"> Оклад</label>
+        <input type="checkbox" id="criteria3" name="criteria3" value="Навыки">
+        <label for="criteria3"> Навыки</label>
+        <input type="checkbox" id="criteria4" name="criteria4" value="Сразу видно, что свой человек">
+        <label for="criteria3">Сразу видно, что свой человек</label>
+    </form> 
+    <br>
+    <p>Образование, курсы и т.п.</p>
 </body>
 </html>
