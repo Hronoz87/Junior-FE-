@@ -1,13 +1,73 @@
 body {
-    background-color:rgb(158, 188, 247);
+    background-image: url(s1200.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
 }
+
+h1 {
+    text-align: center;
+    
+}
+
+p {
+    color: black;
+    font-size: x-large;
+}
+
+input[type="date"] {
+    border-radius: 0 10px;
+    border-color: black;
+    color: darkblue;
+    border-style: double;
+    padding: 5px;
+    text-align: center;
+    
+}
+
 table, td, th {
     border: 1px solid black;
     text-align: center;
     border-spacing: 0px;
+    color: black;
 }
-img {
-    width:  10%;
+
+.photo {
+    width:  5%;
     float: left;;    
     margin-right:20px;
+}
+
+.sob {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="radio" i] {
+    color: rgb(51, 40, 40);
+}
+input[type="submit" i] {
+    background: green; 
+    border: 1px solid #7a7b7e; 
+    width: 85px; 
+    height: 60px; 
+    border-radius: 30px;
+}
+.bad {
+    color: red;
+}
+.midlle {
+    color: yellow;
+}
+.well {
+    color: blue;
+}
+.excellently {
+    color: green;
+}
+ul {
+    list-style-image: url(html5_css_javascript_enl1.jpg);
+   
+    
 }
