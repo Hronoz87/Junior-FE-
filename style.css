@@ -1,0 +1,13 @@
+body {
+    background-color:rgb(158, 188, 247);
+}
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+    border-spacing: 0px;
+}
+img {
+    width:  10%;
+    float: left;;    
+    margin-right:20px;
+}
