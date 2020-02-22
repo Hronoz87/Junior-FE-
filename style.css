@@ -5,6 +5,7 @@ body {
     color: white;
     font-weight: bold;
     font-size: larger;
+    font-family: cursive;
 }
 
 h1 {
@@ -31,7 +32,7 @@ table, td, th {
     border: 1px solid black;
     text-align: center;
     border-spacing: 0px;
-    color: black;
+    color: aliceblue;
 }
 
 .photo {
@@ -44,18 +45,55 @@ table, td, th {
     color: red;
     font-family: Arial, Helvetica, sans-serif;
 }
-input[type="radio" i] {
-    color: rgb(51, 40, 40);
+input[type="submit" i] {
+    background: green;
+    
 }
 input[type="submit" i] {
-    background: green; 
+    background: green;
+    color: rgb(1, 14, 1); 
     border: 1px solid #7a7b7e; 
     width: 85px; 
     height: 60px; 
     border-radius: 30px;
+    border-bottom: 8px solid darkgreen;
 }
+input[type="submit" i]:hover {
+    background: #FF6656;
+    border-bottom-color: #E74C3C;
+    cursor: default;
+}
+input[type="submit" i]:active {
+    top:8px;
+    background: #E74C3C;
+    border-bottom-width: 0px;
+    box-shadow: 0 -4px 6px rgba(0,0,0,0.15) inset;
+}
+
+input[type="reset" i] {
+    background: rgb(206, 47, 47);
+    color: rgb(1, 14, 1); 
+    border: 4px solid #7a7b7e; 
+    width: 85px; 
+    height: 60px; 
+    margin-left: 50px;
+}
+input[type="reset" i]:hover {
+    background: rgb(180, 39, 24);
+    border-bottom-color: rgb(145, 45, 34);
+    cursor: default;
+}
+input[type="reset" i]:active {
+    top:8px;
+    background: rgb(105, 22, 13);
+    border-bottom-width: 0px;
+    box-shadow: 0 -4px 6px rgba(0,0,0,0.15) inset;
+}
+
+ 
 .bad {
     color: red;
+    
 }
 .midlle {
     color: yellow;
@@ -70,4 +108,25 @@ ul {
     list-style-image: url(html5_css_javascript_enl1.jpg);
    
     
+}
+span{
+    color: black;
+}
+input[name="scill" i] {
+    background-color: lightgrey;    
+    height: 30px;
+}
+input[type="button" i] {
+    height: 36px;
+    background-color: grey;
+    border-color: darkgrey;
+    border-bottom-width: thick;
+}
+select[name="value1"] {
+ background-color: green;    
+ border-radius: 10px;
+}
+input[type="text"] {
+    border-color: black;
+
 }
